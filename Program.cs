@@ -1,9 +1,11 @@
-﻿using System.Text;
+﻿using System.ComponentModel;
+using System.Text;
 
 namespace Assignments3_1_1
 {
     internal class Program
     {
+        // Return even numbers. Write a method that returns a string of even numbers greater than 0 and less than 100.
         static void Main(string[] args)
         {
             Console.WriteLine(ReturnByTwosEvens(100));
