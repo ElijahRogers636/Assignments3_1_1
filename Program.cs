@@ -1,4 +1,4 @@
-﻿using System.ComponentModel;
+﻿
 using System.Text;
 
 namespace Assignments3_1_1
@@ -16,11 +16,10 @@ namespace Assignments3_1_1
         static string ReturnByTwosEvens(int numAmount)
         {
             StringBuilder sb = new StringBuilder();
-            for (int i = 2; i < numAmount; i++)
+            for (int i = 2; i < numAmount; i += 2)
             {
                 sb.Append(i);
                 sb.Append(' ');
-                i++;
             }
             return sb.ToString();
         }
